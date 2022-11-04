@@ -19,11 +19,6 @@ const arregloD = Array(5).fill('GO');
 console.log(`Array D con valores llenados por Fill -> ${arregloD}`);
 
 
-
-
-
-
-
 //Metodos generalmente usados para modificar un arreglo
 const names = ['Garrito', 'Ferra', 'Drioler'];
 console.log(`Names => ${names}`);
