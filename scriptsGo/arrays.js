@@ -40,12 +40,13 @@ console.log(`New element in the start of array, hello pardo => ${names}`);
 names.shift();
 console.log(`Delete the first element in the array, bye pardo => ${names}`);
 
+//indexOf -> Encontrar la posicion del elemento de un array.
+names.push('B1lardo');
+names.unshift('Piyuel');
+console.log(`New Array -> ${names}`);
+console.log('Index of, looking for B1lardo -> ' +names.indexOf('B1lardo'));
 
-// //indexOf -> Encontrar la posicion del elemento de un array.
-// nombres.push('Jeff');
-// nombres.unshift('Minor');
-// console.log(`New Array -> ${nombres}`);
-// console.log('Index of, looking for Moni -> ' +nombres.indexOf('Moni'));
+
 // //splice -> Eliminar un elemento unico*. Se envian dos parametros (posicion, cantidad de elementos a borrar). Para que sea solo 1 en especifico, posicion y 1 para que solo se elimine un elemento.
 // nombres.splice(2,1);
 // console.log(`Result after unshift from the position 2, 1 element -> ` + nombres);
